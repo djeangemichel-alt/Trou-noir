@@ -1,0 +1,4 @@
+{
+    "cmake.sourceDirectory": "W:/PROJETS/simulation black hole/dependencies/glm",
+    "python-envs.defaultEnvManager": "ms-python.python:system"
+}

@@ -1,0 +1,22 @@
+{
+    
+    "configurations": [
+        {
+            
+            "name": "win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/msys64/mingw64/include",
+                "C:/program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/include"
+                ],
+
+            "defines": [],
+            "compilerPath" : "C:/msys64/mingw64/bin/g++.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+    
+}

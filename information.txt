@@ -1,0 +1,26 @@
+F = G*(m1 *m2 )/ r^2
+a = -(Gm)*rvecteur/r^3   ou rvecteur = (rx , ry)    acceleration gravitationnelle
+
+F = force gravitationnelle 
+G = constante gravitationnelle
+m1,m2 = les masses
+r = distance entre les astres
+
+Un float ne conserve qu'environ 7 chiffres significatifs et sa capacité maximale est de l'ordre de (10^{38})
+decomposé la force gravitationnelle selon deux axes 
+si une particule subit une accélération \(\vec a\) pendant un petit intervalle de temps Delta t,
+on peut estimer sa nouvelle vitesse new v = v actuel + a*delta t  et new x = x actuel + vx * delta t
+f selon x = F * (distance varié /disctance totale entre les astres)
+
+la seconde loi de Newton
+somme des Fext = ma
+
+ajouter une valeure faible au rayon pour que la valeur ne soit jamais nulle 
+
+linalg.inv(A)	Calcule l’inverse de la matrice carrée A
+linalg.det(A)	Calcule le déterminant de A
+linalg.eig(A)	Calcule les valeurs et vecteurs propres de A
+linalg.norm(x)	Calcule la norme (longueur) d’un vecteur ou d’une matrice
+linalg.solve(A, b)	Résout le système linéaire Ax = b
+linalg.svd(A)	Effectue la décomposition en valeurs singulières
+linalg.matrix_rank(A)	Donne le rang de la matrice A
